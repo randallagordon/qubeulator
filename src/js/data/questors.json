@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Aztec Warrior",
+    "rarity": "3",
+    "attributes": {
+      "strengthLow": 1125,
+      "strengthHigh": 1875,
+      "healthLow": 1500,
+      "healthHigh": 3000,
+      "speedLow": 115,
+      "speedHigh": 225,
+      "perSecond": 642,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "strength": 150,
+      "health": 300,
+      "speed": 22,
+      "perSecond": 194
+    }
+  },
+  {
+    "name": "Char Ninja",
+    "rarity": "2",
+    "attributes": {
+      "strengthLow": 750,
+      "strengthHigh": 1313,
+      "healthLow": 1000,
+      "healthHigh": 2250,
+      "speedLow": 100,
+      "speedHigh": 215,
+      "perSecond": 384,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1811,
+      "strength": 112.6,
+      "health": 250,
+      "speed": 23,
+      "perSecond": 135
+    }
+  }
+]

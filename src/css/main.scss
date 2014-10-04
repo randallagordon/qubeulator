@@ -1,0 +1,13 @@
+@import "../../bower_components/modularized-normalize-scss/_normalize";
+
+.qubeulator-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  height: 2rem;
+
+  li {
+    float: left;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "qubeulator",
+  "version": "0.0.0",
+  "devDependencies": {
+    "modularized-normalize-scss": "~3.0.1"
+  }
+}
