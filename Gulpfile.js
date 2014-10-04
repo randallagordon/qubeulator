@@ -24,6 +24,7 @@ var reload = browserSync.reload;
 var paths = {
   css: ["src/css/**/*.scss"],
   js: ["src/js/**/*.jsx", "node_modules/qubeulator-components/**/*.js"],
+  test: ["test/**/*.js", "src/js/**/*.jsx", "node_modules/qubeulator-components/**/*.js"],
   index: "index.html",
   entrypoint: ["./src/js/app.jsx"],
   build: "./build"
@@ -127,6 +128,10 @@ gulp.task("watch", function() {
   gulp.watch(paths.css, ["css"]);
   gulp.watch(paths.js, ["js"]);
   gulp.watch(paths.index, ["copy"]);
+});
+
+gulp.task("watch-test", ["test"], function() {
+  gulp.watch(paths.test, ["test"]);
 });
 
 gulp.task("build", ["jscs", "lint", "css", "js", "copy"]);
