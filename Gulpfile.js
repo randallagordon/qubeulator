@@ -8,6 +8,7 @@ var reactify = require("reactify");
 var del = require("del");
 var mkdirp = require("mkdirp");
 var source = require("vinyl-source-stream");
+var buffer = require("vinyl-buffer");
 var sass = require("gulp-sass");
 var sourcemaps = require("gulp-sourcemaps");
 var uglify = require("gulp-uglify");
@@ -42,15 +43,18 @@ gulp.task("serve", ["watch", "css", "js", "copy"], function() {
     port: 8080,
     server: {
       baseDir: paths.build,
-      middleware: function(req, res, next) {
-        var fileName = url.parse(req.url);
-        fileName = fileName.href.split(fileName.search).join("");
-        var fileExists = fs.existsSync(path.resolve(__dirname, paths.build) + fileName);
-        if (!fileExists && fileName.indexOf("browser-sync-client") < 0) {
-          req.url = "/index.html";
-        }
-        return next();
-      }
+      middleware: [
+        function singlePageAppRedirect(req, res, next) {
+          var fileName = url.parse(req.url);
+          fileName = fileName.href.split(fileName.search).join("");
+          var fileExists = fs.existsSync(path.resolve(__dirname, paths.build) + fileName);
+          if (!fileExists && fileName.indexOf("browser-sync-client") < 0) {
+            req.url = "/index.html";
+          }
+          return next();
+        },
+        require("compression")()
+      ]
     }
   });
 });
@@ -82,7 +86,7 @@ gulp.task("css", ["clean-css"], function() {
     .pipe(sourcemaps.init())
     .pipe(sass())
     .on("error", handleError)
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write({ sourceRoot: "/src/css" }))
     .pipe(gulp.dest(paths.build + "/css"))
     .pipe(reload({stream:true}));
 });
@@ -101,7 +105,10 @@ gulp.task("js", ["clean-js"], function() {
     .bundle()
     .on("error", handleError)
     .pipe(source("js/bundle.js"))
-    //.pipe(uglify())
+    .pipe(buffer())
+    .pipe(sourcemaps.init({ loadMaps: true }))
+    .pipe(uglify())
+    .pipe(sourcemaps.write({ sourceRoot: ".." }))
     .pipe(gulp.dest(paths.build))
     .pipe(reload({stream:true}));
 });
