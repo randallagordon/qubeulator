@@ -42,6 +42,7 @@ gulp.task("serve", ["watch", "css", "js", "copy"], function() {
   browserSync({
     files: [],
     port: 8080,
+    open: false,
     server: {
       baseDir: paths.build,
       middleware: [
@@ -106,10 +107,10 @@ gulp.task("js", ["clean-js"], function() {
     .bundle()
     .on("error", handleError)
     .pipe(source("js/bundle.js"))
-    .pipe(buffer())
-    .pipe(sourcemaps.init({ loadMaps: true }))
-    .pipe(uglify())
-    .pipe(sourcemaps.write({ sourceRoot: ".." }))
+    //.pipe(buffer())
+    //.pipe(sourcemaps.init({ loadMaps: true }))
+    //.pipe(uglify())
+    //.pipe(sourcemaps.write({ sourceRoot: ".." }))
     .pipe(gulp.dest(paths.build))
     .pipe(reload({stream:true}));
 });
