@@ -3,6 +3,7 @@
 ########################
 node_modules/*
 !node_modules/qubeulator-components
+!node_modules/react-radio-group
 
 ########################
 # node.js / npm

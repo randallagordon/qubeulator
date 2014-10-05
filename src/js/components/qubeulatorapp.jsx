@@ -1,6 +1,7 @@
 /** @jsx React.DOM */
 /*jshint unused:false*/
 "use strict";
+var _ = require("lodash");
 var React = require("react");
 var Router = require("react-router-component");
 var Locations = Router.Locations;
@@ -17,6 +18,7 @@ var Questors = require("qubeulator-components/questors");
 var Collection = require("qubeulator-components/collection");
 
 var questors = require("../data/questors.json");
+questors = _.sortBy(questors, "name");
 
 module.exports = React.createClass({
   someHelper: function () { return "help!"; },
