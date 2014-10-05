@@ -23,8 +23,8 @@ var reload = browserSync.reload;
 
 var paths = {
   css: ["src/css/**/*.scss"],
-  js: ["src/js/**/*.jsx", "node_modules/qubeulator-components/**/*.js"],
-  test: ["test/**/*.js", "src/js/**/*.jsx", "node_modules/qubeulator-components/**/*.js"],
+  js: ["src/js/**/*.js*", "node_modules/qubeulator-components/**/*.js*"],
+  test: ["test/**/*.js*", "src/js/**/*.js*", "node_modules/qubeulator-components/**/*.js*"],
   index: "index.html",
   entrypoint: ["./src/js/app.jsx"],
   build: "./build"
