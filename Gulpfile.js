@@ -135,6 +135,6 @@ gulp.task("watch-test", ["test"], function() {
   gulp.watch(paths.test, ["test"]);
 });
 
-gulp.task("build", ["jscs", "lint", "css", "js", "copy"]);
-
+gulp.task("build", ["jscs", "lint", "test", "css", "js", "copy"]);
+gulp.task("ci", ["jscs", "lint", "test"]);
 gulp.task("default", ["watch", "css", "js", "copy"]);
