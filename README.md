@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/randallagordon/qubeulator.png?label=ready&title=Ready)](https://waffle.io/randallagordon/qubeulator)
 qubeulator
 =============
 A set of useful tools for Qube Kingdom
