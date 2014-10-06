@@ -22,7 +22,7 @@ questors = _.sortBy(questors, "name");
 
 module.exports = React.createClass({
   someHelper: function () { return "help!"; },
-  render: function () {
+  render: function() {
     /*jshint ignore:start*/
     return (
       <div>
