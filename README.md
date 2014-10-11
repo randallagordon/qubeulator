@@ -1,4 +1,4 @@
-qubeulator &nbsp; [![Build Status][travis-image][travis-url] [![Stories in Ready][waffle-image]][waffle-url]
+qubeulator &nbsp; [![Build Status][travis-image]][travis-url] [![Stories in Ready][waffle-image]][waffle-url]
 =============
 A set of useful tools for Qube Kingdom
 
