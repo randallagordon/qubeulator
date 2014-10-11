@@ -494,5 +494,147 @@
       "perSecond": 194,
       "perSecondProgression": [153, 327, 521, 753, 970]
     }
+  }, {
+    "name": "Barbarian",
+    "rarity": "1",
+    "affinity": "nature",
+    "description": "Swings axe with Nature's strength",
+    "attributes": {
+      "strengthLow": 468,
+      "strengthHigh": 938,
+      "healthLow": 500,
+      "healthHigh": 1500,
+      "speedLow": 85,
+      "speedHigh": 205,
+      "perSecond": 496,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 497,
+      "costProgression": [497, 907, 1164, 1376, 1556],
+      "costTotal": 5500,
+      "strength": 94,
+      "health": 200,
+      "speed": 24,
+      "perSecond": 95,
+      "perSecondProgression": [95, 207, 337, 485, 650]
+    }
+  }, {
+    "name": "Archer",
+    "rarity": "1",
+    "affinity": "none",
+    "description": "Fires deadly arrows",
+    "attributes": {
+      "strengthLow": 234,
+      "strengthHigh": 468,
+      "healthLow": 290,
+      "healthHigh": 870,
+      "speedLow": 185,
+      "speedHigh": 425,
+      "perSecond": 197,
+      "range": 185,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 497,
+      "costProgression": [497, 906, 1164, 1376, 1557],
+      "costTotal": 5500,
+      "strength": 46.8,
+      "health": 116,
+      "speed": 48,
+      "perSecond": 92,
+      "perSecondProgression": [92, 201, 327, 471, 632]
+    }
+  }, {
+    "name": "Hedge Mage",
+    "rarity": "1",
+    "affinity": "spirit",
+    "description": "Shoots fireballs",
+    "attributes": {
+      "strengthLow": 500,
+      "strengthHigh": 1000,
+      "healthLow": 375,
+      "healthHigh": 1125,
+      "speedLow": 95,
+      "speedHigh": 215,
+      "perSecond": 247,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 497,
+      "costProgression": [497, 907, 1164, 1376, 1556],
+      "costTotal": 5500,
+      "strength": 100,
+      "health": 150,
+      "speed": 24,
+      "perSecond": 105,
+      "perSecondProgression": [105, 229, 371, 532, 712]
+    }
+  }, {
+    "name": "Healer",
+    "rarity": "1",
+    "affinity": "spirit",
+    "description": "Heals Questors",
+    "attributes": {
+      "supportLow": 140,
+      "supportHigh": 281,
+      "healthLow": 580,
+      "healthHigh": 1740,
+      "speedLow": 20,
+      "speedHigh": 55,
+      "perSecond": 28,
+      "skills": {
+        "a": "Heals 140 points of damage",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 497,
+      "costProgression": [497, 906, 1164, 1376, 1557],
+      "costTotal": 5500,
+      "support": 28.2,
+      "health": 232,
+      "speed": 7,
+      "perSecond": 10,
+      "perSecondProgression": [10, 22, 35, 50, 67]
+    }
+  }, {
+    "name": "Spirit Nymph",
+    "rarity": "3",
+    "affinity": "spirit",
+    "description": "Strikes with the mystery's might",
+    "attributes": {
+      "strengthLow": 1200,
+      "strengthHigh": 2000,
+      "healthLow": 1125,
+      "healthHigh": 2250,
+      "speedLow": 125,
+      "speedHigh": 240,
+      "perSecond": 731,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3371, 4344, 5124, 5800],
+      "costTotal": 20500,
+      "strength": 160,
+      "health": 225,
+      "speed": 23,
+      "perSecond": 219,
+      "perSecondProgression": [219, 466, 742, 1046, 1379]
+    }
   }
 ]
