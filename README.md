@@ -1,4 +1,4 @@
-qubeulator &nbsp; [![Codeship Status][codeship-image]][codeship-url] [![Stories in Ready][waffle-image]][waffle-url]
+qubeulator &nbsp; [![Build Status][travis-image][travis-url] [![Stories in Ready][waffle-image]][waffle-url]
 =============
 A set of useful tools for Qube Kingdom
 
@@ -19,7 +19,7 @@ gulp tasks
 - `gulp test` - TEST ALL THE THINGS!
 - `gulp watch-test` - TEST ALL THE THINGS! ...when files change
 
-[codeship-image]: https://codeship.io/projects/eb697f50-2f1c-0132-3fbc-6a96631daf2b/status?branch=master
-[codeship-url]: https://codeship.io/projects/39455
+[travis-image]: https://travis-ci.org/randallagordon/qubeulator.svg?branch=master
+[travis-url]: https://travis-ci.org/randallagordon/qubeulator
 [waffle-image]: https://badge.waffle.io/randallagordon/qubeulator.png?label=ready&title=Ready
 [waffle-url]: https://waffle.io/randallagordon/qubeulator
