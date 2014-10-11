@@ -3,6 +3,7 @@
     "name": "Aztec Warrior",
     "rarity": "3",
     "affinity": "nature",
+    "description": "Warrior of Quetzalcoatl",
     "attributes": {
       "strengthLow": 1125,
       "strengthHigh": 1875,
@@ -86,7 +87,7 @@
       "speedLow": 125,
       "speedHigh": 240,
       "perSecond": 731,
-      "accuracy": 150,
+      "range": 150,
       "skills": {
         "a": "none",
         "b": "none"
@@ -104,6 +105,7 @@
     "name": "Arges the Brightfire",
     "rarity": "4",
     "affinity": "fire",
+    "description": "Arges' attacks deal extra damage to Undead with righteous fire",
     "attributes": {
       "strengthLow": 2250,
       "strengthHigh": 3375,
@@ -113,7 +115,6 @@
       "speedHigh": 245,
       "perSecond": 1545,
       "skills": {
-        "description": "Arges' attacks deal extra damage to Undead with righteous fire",
         "a": "Deals 90 extra Fire damage over time",
         "b": "none"
       }
@@ -130,6 +131,7 @@
     "name": "Mystic Knight",
     "rarity": "3",
     "affinity": "spirit",
+    "description": "Mystic energy guides this questor's blade",
     "attributes": {
       "strengthLow": 1125,
       "strengthHigh": 1875,
@@ -139,7 +141,6 @@
       "speedHigh": 225,
       "perSecond": 642,
       "skills": {
-        "description": "Mystic energy guides this questor's blade",
         "a": "none",
         "b": "none"
       }
@@ -150,6 +151,348 @@
       "health": 300,
       "speed": 22,
       "perSecond": 194
+    }
+  },
+  {
+    "name": "Horn Player",
+    "rarity": "2",
+    "affinity": "fire",
+    "description": "Inspires your Questors to shoot further",
+    "attributes": {
+      "supportLow": 5,
+      "supportHigh": 10,
+      "healthLow": 1160,
+      "healthHigh": 2610,
+      "speedLow": 25,
+      "speedHigh": 55,
+      "skills": {
+        "a": "Increases Range by 5%",
+        "b": "Changes the target's damage type to Fire"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "support": 1,
+      "health": 290,
+      "speed": 6
+    }
+  },
+  {
+    "name": "Valkyrie",
+    "rarity": "4",
+    "affinity": "fire",
+    "description": "This firey battle maiden fights for justice",
+    "attributes": {
+      "strengthLow": 1920,
+      "strengthHigh": 2880,
+      "healthLow": 2360,
+      "healthHigh": 4725,
+      "speedLow": 130,
+      "speedHigh": 220,
+      "perSecond": 0,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "strength": 192,
+      "health": 473,
+      "speed": 18,
+      "perSecond": 321
+    }
+  },
+  {
+    "name": "Jason the Argonaut",
+    "rarity": "4",
+    "affinity": "spirit",
+    "description": "This famed hero deals extra damage to Skeletons",
+    "attributes": {
+      "strengthLow": 2250,
+      "strengthHigh": 3375,
+      "healthLow": 3375,
+      "healthHigh": 6750,
+      "speedLow": 145,
+      "speedHigh": 245,
+      "perSecond": 1545,
+      "skills": {
+        "a": "Deals 110 extra Spirit damage",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 3452,
+      "costProgression": [3452, 6248, 8049, 9500, 10751],
+      "costTotal": 38000,
+      "strength": 225,
+      "health": 675,
+      "speed": 20,
+      "perSecond": 346,
+      "perSecondProgression": [346, 728, 1144, 1595, 2081]
+    }
+  },
+  {
+    "name": "Knight",
+    "rarity": "1",
+    "affinity": "none",
+    "description": "Strong melee warrior",
+    "attributes": {
+      "strengthLow": 375,
+      "strengthHigh": 750,
+      "healthLow": 650,
+      "healthHigh": 1950,
+      "speedLow": 85,
+      "speedHigh": 195,
+      "perSecond": 170,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 497,
+      "costProgression": [497, 906, 1164, 1376, 1557],
+      "costTotal": 5500,
+      "strength": 75,
+      "health": 260,
+      "speed": 22,
+      "perSecond": 72,
+      "perSecondProgression": [72, 158, 256, 366, 490]
+    }
+  },
+  {
+    "name": "Viking",
+    "rarity": "2",
+    "affinity": "nature",
+    "description": "Berserks with Qodin's force",
+    "attributes": {
+      "strengthLow": 750,
+      "strengthHigh": 1313,
+      "healthLow": 1000,
+      "healthHigh": 2250,
+      "speedLow": 100,
+      "speedHigh": 215,
+      "perSecond": 384,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1811, 2329, 2751, 3112],
+      "costTotal": 11000,
+      "strength": 112.6,
+      "health": 250,
+      "speed": 23,
+      "perSecond": 135,
+      "perSecondProgression": [135, 289, 464, 659, 874]
+    }
+  },
+  {
+    "name": "Gladiator",
+    "rarity": "3",
+    "affinity": "metal",
+    "description": "Battle-hardened in the arena",
+    "attributes": {
+      "strengthLow": 1053,
+      "strengthHigh": 1755,
+      "healthLow": 1740,
+      "healthHigh": 3480,
+      "speedLow": 105,
+      "speedHigh": 215,
+      "perSecond": 560,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3372, 4342, 5125, 5800],
+      "costTotal": 20500,
+      "strength": 140.4,
+      "health": 348,
+      "speed": 22,
+      "perSecond": 176,
+      "perSecondProgression": [176, 377, 601, 849, 1121]
+    }
+  },
+  {
+    "name": "Werewolf Hunter",
+    "rarity": "3",
+    "affinity": "spirit",
+    "description": "Hunts monsters with zeal",
+    "attributes": {
+      "strengthLow": 1260,
+      "strengthHigh": 2100,
+      "healthLow": 1050,
+      "healthHigh": 2100,
+      "speedLow": 20,
+      "speedHigh": 45,
+      "perSecond": 255,
+      "range": 300,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1862,
+      "costProgression": [1862, 3371, 4342, 5126, 5799],
+      "costTotal": 20500,
+      "strength": 168,
+      "health": 210,
+      "speed": 5,
+      "perSecond": 62,
+      "perSecondProgression": [62, 130, 205, 286, 374]
+    }
+  },
+  {
+    "name": "Nature Mage",
+    "rarity": "3",
+    "affinity": "nature",
+    "description": "Casts magic with nature's might",
+    "attributes": {
+      "strengthLow": 1344,
+      "strengthHigh": 2240,
+      "healthLow": 1575,
+      "healthHigh": 3150,
+      "speedLow": 70,
+      "speedHigh": 135,
+      "perSecond": 533,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1862,
+      "costProgression": [1862, 3371, 4342, 5126, 5799],
+      "costTotal": 20500,
+      "strength": 179.2,
+      "health": 315,
+      "speed": 13,
+      "perSecond": 148,
+      "perSecondProgression": [148, 314, 497, 699, 919]
+    }
+  },
+  {
+    "name": "Highwayman",
+    "rarity": "2",
+    "affinity": "nature",
+    "description": "Tough ranged attacker",
+    "attributes": {
+      "strengthLow": 600,
+      "strengthHigh": 1050,
+      "healthLow": 650,
+      "healthHigh": 1465,
+      "speedLow": 30,
+      "speedHigh": 65,
+      "perSecond": 145,
+      "range": 300,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1810, 2330, 2750, 3113],
+      "costTotal": 11000,
+      "strength": 90,
+      "health": 163,
+      "speed": 7,
+      "perSecond": 40,
+      "perSecondProgression": [40, 86, 136, 191, 251]
+    }
+  },
+  {
+    "name": "Spider Mage",
+    "rarity": "3",
+    "affinity": "nature",
+    "description": "Toxins take her foes to the grave",
+    "attributes": {
+      "strengthLow": 1123,
+      "strengthHigh": 1872,
+      "healthLow": 1305,
+      "healthHigh": 2610,
+      "speedLow": 115,
+      "speedHigh": 225,
+      "perSecond": 641,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1862, 3372, 4342, 5125, 5800],
+      "costTotal": 20500,
+      "strength": 149.8,
+      "health": 261,
+      "speed": 22,
+      "perSecond": 194,
+      "perSecondProgression": [194, 414, 659, 929, 1225]
+    }
+  },
+  {
+    "name": "Hoplite",
+    "rarity": "1",
+    "affinity": "metal",
+    "description": "Launches spear with precision",
+    "attributes": {
+      "strengthLow": 275,
+      "strengthHigh": 550,
+      "healthLow": 325,
+      "healthHigh": 975,
+      "speedLow": 160,
+      "speedHigh": 375,
+      "perSecond": 205,
+      "range": 160,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 497,
+      "costProgression": [497, 906, 1164, 1376, 1557],
+      "costTotal": 5500,
+      "strength": 55,
+      "health": 130,
+      "speed": 43,
+      "perSecond": 96,
+      "perSecondProgression": [96, 210, 343, 494, 663]
+    }
+  }, {
+    "name": "Paladin",
+    "rarity": "3",
+    "affinity": "spirit",
+    "description": "Strikes with righteous fury",
+    "attributes": {
+      "strengthLow": 900,
+      "strengthHigh": 1500,
+      "healthLow": 1950,
+      "healthHigh": 3900,
+      "speedLow": 110,
+      "speedHigh": 220,
+      "perSecond": 496,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "strength": 150,
+      "health": 390,
+      "speed": 22,
+      "perSecond": 194,
+      "perSecondProgression": [153, 327, 521, 753, 970]
     }
   }
 ]
