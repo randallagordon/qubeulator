@@ -21,6 +21,7 @@ var questors = require("../data/questors.json");
 questors = _.sortBy(questors, "name");
 
 module.exports = React.createClass({
+  displayName: "QubeulatorApp",
   someHelper: function () { return "help!"; },
   render: function () {
     /*jshint ignore:start*/
