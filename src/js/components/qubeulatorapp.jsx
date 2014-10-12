@@ -29,8 +29,8 @@ module.exports = React.createClass({
         <Header/>
         <Locations>
           <Location path="/" handler={MainPage} />
-          <Location path="/questors/*" handler={Questors} />
-          <Location path="/collection/*" handler={Collection} questors={questors} />
+          <Location path="/questors*" handler={Questors} />
+          <Location path="/collection*" handler={Collection} questors={questors} />
           <NotFound handler={NotFoundPage} />
         </Locations>
         <Footer/>

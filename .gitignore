@@ -55,3 +55,4 @@ styleguide
 coverage.html
 build
 dist
+.divshot-cache
