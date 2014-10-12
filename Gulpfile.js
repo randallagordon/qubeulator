@@ -38,7 +38,7 @@ var handleError = function(err) {
   this.emit("end");
 };
 
-gulp.task("serve", ["watch", "css", "js", "copy"], function() {
+gulp.task("serve", ["watch", "css", "js-debug", "copy"], function() {
   browserSync({
     files: [],
     port: 8080,
@@ -98,7 +98,7 @@ gulp.task("clean-js", function(done) {
   mkdirp(paths.build + "/js");
 });
 
-gulp.task("js", ["clean-js"], function() {
+gulp.task("js-debug", ["clean-js"], function() {
   browserify({
     entries: paths.entrypoint,
     debug: true
@@ -115,6 +115,20 @@ gulp.task("js", ["clean-js"], function() {
     .pipe(reload({stream:true}));
 });
 
+gulp.task("js-build", ["clean-js"], function() {
+  browserify({
+    entries: paths.entrypoint,
+  })
+    .transform(reactify)
+    .bundle()
+    .on("error", handleError)
+    .pipe(source("js/bundle.js"))
+    .pipe(buffer())
+    .pipe(uglify())
+    .pipe(gulp.dest(paths.build))
+    .pipe(reload({stream:true}));
+});
+
 gulp.task("clean-copy", function(done) {
   del([paths.build + "/" + paths.index], done);
 });
@@ -127,7 +141,7 @@ gulp.task("copy", ["clean-copy"], function () {
 
 gulp.task("watch", function() {
   gulp.watch(paths.css, ["css"]);
-  gulp.watch(paths.js, ["js"]);
+  gulp.watch(paths.js, ["js-debug"]);
   gulp.watch(paths.index, ["copy"]);
 });
 
@@ -135,6 +149,6 @@ gulp.task("watch-test", ["test"], function() {
   gulp.watch(paths.test, ["test"]);
 });
 
-gulp.task("build", ["jscs", "lint", "test", "css", "js", "copy"]);
+gulp.task("build", ["jscs", "lint", "test", "css", "js-build", "copy"]);
 gulp.task("ci", ["jscs", "lint", "test"]);
-gulp.task("default", ["watch", "css", "js", "copy"]);
+gulp.task("default", ["watch", "css", "js-debug", "copy"]);
