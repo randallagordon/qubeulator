@@ -31,6 +31,7 @@
     "rarity": "2",
     "affinity": "fire",
     "origin": "Volqano",
+    "description": "Blazing servant to the dark arts",
     "attributes": {
       "strengthLow": 750,
       "strengthHigh": 1313,
@@ -57,6 +58,7 @@
     "rarity": "3",
     "affinity": "metal",
     "origin": "Qin Kingdom",
+    "description": "Fierce and mighty warrior",
     "attributes": {
       "strengthLow": 1260,
       "strengthHigh": 2100,
@@ -66,7 +68,7 @@
       "speedHigh": 130,
       "perSecond": 475,
       "skills": {
-        "a": "none",
+        "a": "Deals 315 extra Metal damage",
         "b": "none"
       }
     },
@@ -83,6 +85,7 @@
     "rarity": "3",
     "affinity": "spirit",
     "origin": "Quakelands",
+    "description": "Strikes with the mystery's might",
     "attributes": {
       "strengthLow": 1200,
       "strengthHigh": 2000,
