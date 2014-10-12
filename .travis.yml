@@ -9,7 +9,8 @@ deploy:
   provider: divshot
   api_key:
     secure: i6Rr/c/kyYlgiKr48piOvlRk9wHLzU2N1meD3Q4ZrZil+aD9ylTx0PuR7yFEQ2RSJm3sDV6lgEjHa60H2rWS5evcUZn0fubHjp1bJPO62q73b6ddSF8PkvrJJIDRFbTjl+zFUszxokaYFhdSjRsO+9n5hyXFpIKK9vWTjY8xCX4=
-  environment: production
+  environment:
+    master: production
   skip_cleanup: true
   on:
     repo: randallagordon/qubeulator
