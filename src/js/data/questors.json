@@ -3,6 +3,7 @@
     "name": "Aztec Warrior",
     "rarity": "3",
     "affinity": "nature",
+    "origin": "Mystery",
     "description": "Warrior of Quetzalcoatl",
     "attributes": {
       "strengthLow": 1125,
@@ -29,6 +30,7 @@
     "name": "Char Ninja",
     "rarity": "2",
     "affinity": "fire",
+    "origin": "Volqano",
     "attributes": {
       "strengthLow": 750,
       "strengthHigh": 1313,
@@ -54,6 +56,7 @@
     "name": "Templar",
     "rarity": "3",
     "affinity": "metal",
+    "origin": "Qin Kingdom",
     "attributes": {
       "strengthLow": 1260,
       "strengthHigh": 2100,
@@ -79,6 +82,7 @@
     "name": "Spirit Nymph",
     "rarity": "3",
     "affinity": "spirit",
+    "origin": "Quakelands",
     "attributes": {
       "strengthLow": 1200,
       "strengthHigh": 2000,
@@ -105,6 +109,7 @@
     "name": "Arges the Brightfire",
     "rarity": "4",
     "affinity": "fire",
+    "origin": "Volqano",
     "description": "Arges' attacks deal extra damage to Undead with righteous fire",
     "attributes": {
       "strengthLow": 2250,
@@ -131,6 +136,7 @@
     "name": "Mystic Knight",
     "rarity": "3",
     "affinity": "spirit",
+    "origin": "Mystery",
     "description": "Mystic energy guides this questor's blade",
     "attributes": {
       "strengthLow": 1125,
@@ -157,6 +163,7 @@
     "name": "Horn Player",
     "rarity": "2",
     "affinity": "fire",
+    "origin": "Qold Qountry",
     "description": "Inspires your Questors to shoot further",
     "attributes": {
       "supportLow": 5,
@@ -181,6 +188,7 @@
     "name": "Valkyrie",
     "rarity": "4",
     "affinity": "fire",
+    "origin": "Qold Qountry",
     "description": "This firey battle maiden fights for justice",
     "attributes": {
       "strengthLow": 1920,
@@ -207,6 +215,7 @@
     "name": "Jason the Argonaut",
     "rarity": "4",
     "affinity": "spirit",
+    "origin": "Qolosseum",
     "description": "This famed hero deals extra damage to Skeletons",
     "attributes": {
       "strengthLow": 2250,
@@ -236,6 +245,7 @@
     "name": "Knight",
     "rarity": "1",
     "affinity": "none",
+    "origin": "Qapellium",
     "description": "Strong melee warrior",
     "attributes": {
       "strengthLow": 375,
@@ -265,6 +275,7 @@
     "name": "Viking",
     "rarity": "2",
     "affinity": "nature",
+    "origin": "Quakelands",
     "description": "Berserks with Qodin's force",
     "attributes": {
       "strengthLow": 750,
@@ -294,6 +305,7 @@
     "name": "Gladiator",
     "rarity": "3",
     "affinity": "metal",
+    "origin": "The Quagmire",
     "description": "Battle-hardened in the arena",
     "attributes": {
       "strengthLow": 1053,
@@ -323,6 +335,7 @@
     "name": "Werewolf Hunter",
     "rarity": "3",
     "affinity": "spirit",
+    "origin": "Qold Qountry",
     "description": "Hunts monsters with zeal",
     "attributes": {
       "strengthLow": 1260,
@@ -353,6 +366,7 @@
     "name": "Nature Mage",
     "rarity": "3",
     "affinity": "nature",
+    "origin": "Qin Kingdom",
     "description": "Casts magic with nature's might",
     "attributes": {
       "strengthLow": 1344,
@@ -383,6 +397,7 @@
     "name": "Highwayman",
     "rarity": "2",
     "affinity": "nature",
+    "origin": "The Quagmire",
     "description": "Tough ranged attacker",
     "attributes": {
       "strengthLow": 600,
@@ -413,6 +428,7 @@
     "name": "Spider Mage",
     "rarity": "3",
     "affinity": "nature",
+    "origin": "Mystery",
     "description": "Toxins take her foes to the grave",
     "attributes": {
       "strengthLow": 1123,
@@ -443,6 +459,7 @@
     "name": "Hoplite",
     "rarity": "1",
     "affinity": "metal",
+    "origin": "The Quagmire",
     "description": "Launches spear with precision",
     "attributes": {
       "strengthLow": 275,
@@ -472,6 +489,7 @@
     "name": "Paladin",
     "rarity": "3",
     "affinity": "spirit",
+    "origin": "Qin Kingdom",
     "description": "Strikes with righteous fury",
     "attributes": {
       "strengthLow": 900,
@@ -498,6 +516,7 @@
     "name": "Barbarian",
     "rarity": "1",
     "affinity": "nature",
+    "origin": "Qapellium",
     "description": "Swings axe with Nature's strength",
     "attributes": {
       "strengthLow": 468,
@@ -526,6 +545,7 @@
     "name": "Archer",
     "rarity": "1",
     "affinity": "none",
+    "origin": "Qapellium",
     "description": "Fires deadly arrows",
     "attributes": {
       "strengthLow": 234,
@@ -555,6 +575,7 @@
     "name": "Hedge Mage",
     "rarity": "1",
     "affinity": "spirit",
+    "origin": "Qapellium",
     "description": "Shoots fireballs",
     "attributes": {
       "strengthLow": 500,
@@ -584,6 +605,7 @@
     "name": "Healer",
     "rarity": "1",
     "affinity": "spirit",
+    "origin": "Qapellium",
     "description": "Heals Questors",
     "attributes": {
       "supportLow": 140,
@@ -612,6 +634,7 @@
     "name": "Spirit Nymph",
     "rarity": "3",
     "affinity": "spirit",
+    "origin": "Quakelands",
     "description": "Strikes with the mystery's might",
     "attributes": {
       "strengthLow": 1200,
