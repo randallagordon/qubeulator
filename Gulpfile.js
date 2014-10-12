@@ -18,8 +18,13 @@ var jsxcs = require("gulp-jsxcs");
 var lab = require("gulp-lab");
 var plumber = require("gulp-plumber");
 var notify = require("gulp-notify");
-var browserSync = require("browser-sync");
-var reload = browserSync.reload;
+
+// BrowserSync is an optional dependency to avoid compiling ws on Travis builds
+try {
+  var browserSync = require("browser-sync");
+  var reload = browserSync.reload;
+} catch (e) {
+}
 
 var paths = {
   css: ["src/css/**/*.scss"],
@@ -38,7 +43,7 @@ var handleError = function(err) {
   this.emit("end");
 };
 
-gulp.task("serve", ["watch", "css", "js-debug", "copy"], function() {
+gulp.task("serve", ["watch", "css-debug", "js-debug", "copy-debug"], function() {
   browserSync({
     files: [],
     port: 8080,
@@ -83,14 +88,20 @@ gulp.task("clean-css", function(done) {
   mkdirp(paths.build + "/css");
 });
 
-gulp.task("css", ["clean-css"], function() {
+gulp.task("css-debug", ["clean-css"], function() {
   return gulp.src(paths.css)
     .pipe(sourcemaps.init())
     .pipe(sass())
-    .on("error", handleError)
-    .pipe(sourcemaps.write({ sourceRoot: "/src/css" }))
+    .on("error", handleerror)
+    .pipe(sourcemaps.write({ sourceroot: "/src/css" }))
     .pipe(gulp.dest(paths.build + "/css"))
     .pipe(reload({stream:true}));
+});
+
+gulp.task("css-build", ["clean-css"], function() {
+  return gulp.src(paths.css)
+    .pipe(sass())
+    .pipe(gulp.dest(paths.build + "/css"));
 });
 
 gulp.task("clean-js", function(done) {
@@ -126,29 +137,33 @@ gulp.task("js-build", ["clean-js"], function() {
     .pipe(buffer())
     .pipe(uglify())
     .pipe(gulp.dest(paths.build))
-    .pipe(reload({stream:true}));
 });
 
 gulp.task("clean-copy", function(done) {
   del([paths.build + "/" + paths.index], done);
 });
 
-gulp.task("copy", ["clean-copy"], function () {
+gulp.task("copy-debug", ["clean-copy"], function () {
   gulp.src(paths.index)
     .pipe(gulp.dest(paths.build))
     .pipe(reload({stream:true}));
 });
 
+gulp.task("copy-build", ["clean-copy"], function () {
+  gulp.src(paths.index)
+    .pipe(gulp.dest(paths.build));
+});
+
 gulp.task("watch", function() {
-  gulp.watch(paths.css, ["css"]);
+  gulp.watch(paths.css, ["css-debug"]);
   gulp.watch(paths.js, ["js-debug"]);
-  gulp.watch(paths.index, ["copy"]);
+  gulp.watch(paths.index, ["copy-debug"]);
 });
 
 gulp.task("watch-test", ["test"], function() {
   gulp.watch(paths.test, ["test"]);
 });
 
-gulp.task("build", ["jscs", "lint", "test", "css", "js-build", "copy"]);
+gulp.task("build", ["jscs", "lint", "test", "css-build", "js-build", "copy-build"]);
 gulp.task("ci", ["jscs", "lint", "test"]);
-gulp.task("default", ["watch", "css", "js-debug", "copy"]);
+gulp.task("default", ["watch", "css-debug", "js-debug", "copy-debug"]);
