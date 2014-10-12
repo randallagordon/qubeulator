@@ -6,6 +6,7 @@ var Router = require("react-router-component");
 var Link = Router.Link;
 
 module.exports = React.createClass({
+  displayName: "Header",
   render: function () {
     /*jshint ignore:start*/
     return (
