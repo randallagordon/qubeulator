@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - 0.10
+- 0.10
 script: gulp ci
+deploy:
+  provider: divshot
+  api_key:
+    secure: i6Rr/c/kyYlgiKr48piOvlRk9wHLzU2N1meD3Q4ZrZil+aD9ylTx0PuR7yFEQ2RSJm3sDV6lgEjHa60H2rWS5evcUZn0fubHjp1bJPO62q73b6ddSF8PkvrJJIDRFbTjl+zFUszxokaYFhdSjRsO+9n5hyXFpIKK9vWTjY8xCX4=
+  environment: production
+  on:
+    repo: randallagordon/qubeulator
