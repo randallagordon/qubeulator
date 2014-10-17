@@ -81,34 +81,6 @@
     }
   },
   {
-    "name": "Spirit Nymph",
-    "rarity": "3",
-    "affinity": "spirit",
-    "origin": "Quakelands",
-    "description": "Strikes with the mystery's might",
-    "attributes": {
-      "strengthLow": 1200,
-      "strengthHigh": 2000,
-      "healthLow": 1125,
-      "healthHigh": 2250,
-      "speedLow": 125,
-      "speedHigh": 240,
-      "perSecond": 731,
-      "range": 150,
-      "skills": {
-        "a": "none",
-        "b": "none"
-      }
-    },
-    "upgrade": {
-      "cost": 3371,
-      "strength": 160,
-      "health": 225,
-      "speed": 23,
-      "perSecond": 219
-    }
-  },
-  {
     "name": "Arges the Brightfire",
     "rarity": "4",
     "affinity": "fire",
@@ -488,7 +460,8 @@
       "perSecond": 96,
       "perSecondProgression": [96, 210, 343, 494, 663]
     }
-  }, {
+  },
+  {
     "name": "Paladin",
     "rarity": "3",
     "affinity": "spirit",
@@ -515,7 +488,8 @@
       "perSecond": 194,
       "perSecondProgression": [153, 327, 521, 753, 970]
     }
-  }, {
+  },
+  {
     "name": "Barbarian",
     "rarity": "1",
     "affinity": "nature",
@@ -544,7 +518,8 @@
       "perSecond": 95,
       "perSecondProgression": [95, 207, 337, 485, 650]
     }
-  }, {
+  },
+  {
     "name": "Archer",
     "rarity": "1",
     "affinity": "none",
@@ -574,7 +549,8 @@
       "perSecond": 92,
       "perSecondProgression": [92, 201, 327, 471, 632]
     }
-  }, {
+  },
+  {
     "name": "Hedge Mage",
     "rarity": "1",
     "affinity": "spirit",
@@ -604,7 +580,8 @@
       "perSecond": 105,
       "perSecondProgression": [105, 229, 371, 532, 712]
     }
-  }, {
+  },
+  {
     "name": "Healer",
     "rarity": "1",
     "affinity": "spirit",
@@ -633,7 +610,8 @@
       "perSecond": 10,
       "perSecondProgression": [10, 22, 35, 50, 67]
     }
-  }, {
+  },
+  {
     "name": "Spirit Nymph",
     "rarity": "3",
     "affinity": "spirit",
@@ -647,6 +625,7 @@
       "speedLow": 125,
       "speedHigh": 240,
       "perSecond": 731,
+      "range": 150,
       "skills": {
         "a": "none",
         "b": "none"
@@ -661,6 +640,339 @@
       "speed": 23,
       "perSecond": 219,
       "perSecondProgression": [219, 466, 742, 1046, 1379]
+    }
+  },
+  {
+    "name": "Wushin Monk",
+    "rarity": "3",
+    "affinity": "spirit",
+    "origin": "Mystery",
+    "description": "Uses ancientjung fu",
+    "attributes": {
+      "strengthLow": 1260,
+      "strengthHigh": 2100,
+      "healthLow": 2100,
+      "healthHigh": 4200,
+      "speedLow": 65,
+      "speedHigh": 130,
+      "perSecond": 475,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1862,
+      "costProgression": [1862, 3371, 4342, 5126, 5799],
+      "costTotal": 20500,
+      "strength": 168,
+      "health": 420,
+      "speed": 13,
+      "perSecond": 135,
+      "perSecondProgression": [135, 287, 457, 643, 846]
+    }
+  },
+  {
+    "name": "Warlock",
+    "rarity": "3",
+    "affinity": "spirit",
+    "origin": "Quakelands",
+    "description": "Deadly spirit magics rain from his staff",
+    "attributes": {
+      "strengthLow": 1228,
+      "strengthHigh": 2048,
+      "healthLow": 1180,
+      "healthHigh": 2365,
+      "speedLow": 115,
+      "speedHigh": 225,
+      "perSecond": 701,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3372, 4342, 5125, 5800],
+      "costTotal": 20500,
+      "strength": 164,
+      "health": 237,
+      "speed": 22,
+      "perSecond": 212,
+      "perSecondProgression": [212, 452, 721, 1017, 1341]
+    }
+  },
+  {
+    "name": "Swamp Witch",
+    "rarity": "3",
+    "affinity": "nature",
+    "origin": "Mystery",
+    "description": "Unleashes devious hexes",
+    "attributes": {
+      "strengthLow": 1228,
+      "strengthHigh": 2048,
+      "healthLow": 1180,
+      "healthHigh": 2365,
+      "speedLow": 115,
+      "speedHigh": 225,
+      "perSecond": 701,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3372, 4342, 5125, 5800],
+      "costTotal": 20500,
+      "strength": 164,
+      "health": 237,
+      "speed": 22,
+      "perSecond": 212,
+      "perSecondProgression": [212, 452, 721, 1017, 1341]
+    }
+  },
+  {
+    "name": "Spartan",
+    "rarity": "2",
+    "affinity": "metal",
+    "origin": "The Quagmire",
+    "description": "Attacks with a vicious",
+    "attributes": {
+      "strengthLow": 702,
+      "strengthHigh": 1229,
+      "healthLow": 1160,
+      "healthHigh": 2610,
+      "speedLow": 95,
+      "speedHigh": 200,
+      "perSecond": 346,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1809, 2331, 2751, 3112],
+      "costTotal": 11000,
+      "strength": 105.4,
+      "health": 290,
+      "speed": 21,
+      "perSecond": 118,
+      "perSecondProgression": [118, 253, 404, 574, 760]
+    }
+  },
+  {
+    "name": "Arcane Archer",
+    "rarity": "4",
+    "affinity": "spirit",
+    "origin": "Qin Kingdom",
+    "description": "Shoots arrows laden with slowing magics",
+    "attributes": {
+      "strengthLow": 1024,
+      "strengthHigh": 1536,
+      "healthLow": 1180,
+      "healthHigh": 2365,
+      "speedLow": 290,
+      "speedHigh": 495,
+      "perSecond": 1279,
+      "range": 185,
+      "skills": {
+        "a": "Deals 110 extra Spirit damage",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 3452,
+      "costProgression": [3452, 6248, 8050, 9500, 10750],
+      "costTotal": 38000,
+      "strength": 102.4,
+      "health": 237,
+      "speed": 41,
+      "perSecond": 307,
+      "perSecondProgression": [307, 646, 1018, 1423, 1860]
+    }
+  },
+  {
+    "name": "Conquistador",
+    "rarity": "3",
+    "affinity": "metal",
+    "origin": "Qin Kingdom",
+    "description": "Shoots his rifle with wicked aim",
+    "attributes": {
+      "strengthLow": 900,
+      "strengthHigh": 1500,
+      "healthLow": 975,
+      "healthHigh": 1950,
+      "speedLow": 35,
+      "speedHigh": 70,
+      "perSecond": 235,
+      "range": 300,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3371, 4343, 5125, 5800],
+      "costTotal": 20500,
+      "strength": 120,
+      "health": 195,
+      "speed": 7,
+      "perSecond": 59,
+      "perSecondProgression": [59, 124, 196, 275, 360]
+    }
+  },
+  {
+    "name": "Enchantress",
+    "rarity": "3",
+    "affinity": "spirit",
+    "origin": "Mystery",
+    "description": "Heals and negates enemy magics",
+    "attributes": {
+      "supportLow": 360,
+      "supportHigh": 600,
+      "healthLow": 1500,
+      "healthHigh": 3000,
+      "speedLow": 30,
+      "speedHigh": 60,
+      "perSecond": 87,
+      "skills": {
+        "a": "Heals 360 points of damage",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3371, 4344, 5124, 5800],
+      "costTotal": 20500,
+      "support": 48,
+      "health": 300,
+      "speed": 6,
+      "perSecond": 21,
+      "perSecondProgression": [21, 44, 70, 98, 128]
+    }
+  },
+  {
+    "name": "Blacksmith",
+    "rarity": "2",
+    "affinity": "metal",
+    "origin": "The Quagmire",
+    "description": "Forges weapons for heroes",
+    "attributes": {
+      "supportLow": 0.4,
+      "supportHigh": 0.9,
+      "healthLow": 1300,
+      "healthHigh": 2925,
+      "speedLow": 25,
+      "speedHigh": 55,
+      "skills": {
+        "a": "Increases attack attribute by 4%",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1810, 2330, 2750, 3113],
+      "costTotal": 11000,
+      "support": 0.01,
+      "health": 325,
+      "speed": 6
+    }
+  },
+  {
+    "name": "Witch",
+    "rarity": "2",
+    "affinity": "spirit",
+    "origin": "Quakelands",
+    "description": "Curses and hexes her foes",
+    "attributes": {
+      "strengthLow": 819,
+      "strengthHigh": 1434,
+      "healthLow": 785,
+      "healthHigh": 1775,
+      "speedLow": 100,
+      "speedHigh": 215,
+      "perSecond": 420,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1809, 2331, 2750, 3113],
+      "costTotal": 11000,
+      "support": 123,
+      "health": 198,
+      "speed": 23,
+      "perSecond": 147,
+      "perSecondProgression": [147, 316, 507, 720, 954]
+    }
+  },
+  {
+    "name": "Dark Mage",
+    "rarity": "2",
+    "affinity": "spirit",
+    "origin": "Quakelands",
+    "description": "Targets victims with dark magics",
+    "attributes": {
+      "strengthLow": 896,
+      "strengthHigh": 1568,
+      "healthLow": 1050,
+      "healthHigh": 2365,
+      "speedLow": 60,
+      "speedHigh": 130,
+      "perSecond": 320,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1809, 2330, 2750, 3114],
+      "costTotal": 11000,
+      "support": 134.4,
+      "health": 263,
+      "speed": 14,
+      "perSecond": 104,
+      "perSecondProgression": [104, 222, 356, 503, 666]
+    }
+  },
+  {
+    "name": "Druid",
+    "rarity": "1",
+    "affinity": "nature",
+    "origin": "The Quagmire",
+    "description": "Heals with Nature's might",
+    "attributes": {
+      "strengthLow": 120,
+      "strengthHigh": 240,
+      "healthLow": 650,
+      "healthHigh": 1950,
+      "speedLow": 20,
+      "speedHigh": 55,
+      "perSecond": 24,
+      "skills": {
+        "a": "Heals 120 points of damage",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 497,
+      "costProgression": [497, 906, 1164, 1376, 1557],
+      "costTotal": 5500,
+      "support": 24,
+      "health": 260,
+      "speed": 7,
+      "perSecond": 9,
+      "perSecondProgression": [9, 19, 30, 43, 57]
     }
   }
 ]
