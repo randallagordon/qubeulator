@@ -12,3 +12,6 @@ deploy:
   skip_cleanup: true
   on:
     repo: randallagordon/qubeulator
+notifications:
+  slack:
+    secure: xZIFg2PcwmndzsmXAf0r7ACE88sQ3/F1/kyX7f56SKGBgX51TLe6pv+btDSHz++PJJdoWX5wY9TWgdYSjbLVSFvfGkUuKKz0AM/X41hpS50JSWfY9cbwSjC4omtOq4N6FGRO2Qxgw+o9Bo+55+JHLdS+UMlVoaXaff0lTsDx7s0=
