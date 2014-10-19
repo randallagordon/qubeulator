@@ -907,7 +907,7 @@
       "cost": 997,
       "costProgression": [997, 1809, 2331, 2750, 3113],
       "costTotal": 11000,
-      "support": 123,
+      "strength": 123,
       "health": 198,
       "speed": 23,
       "perSecond": 147,
@@ -918,7 +918,7 @@
     "name": "Dark Mage",
     "rarity": "2",
     "affinity": "spirit",
-    "origin": "Quakelands",
+    "origin": "The Quagmire",
     "description": "Targets victims with dark magics",
     "attributes": {
       "strengthLow": 896,
@@ -938,7 +938,7 @@
       "cost": 997,
       "costProgression": [997, 1809, 2330, 2750, 3114],
       "costTotal": 11000,
-      "support": 134.4,
+      "strength": 134.4,
       "health": 263,
       "speed": 14,
       "perSecond": 104,
@@ -968,11 +968,164 @@
       "cost": 497,
       "costProgression": [497, 906, 1164, 1376, 1557],
       "costTotal": 5500,
-      "support": 24,
+      "strength": 24,
       "health": 260,
       "speed": 7,
       "perSecond": 9,
       "perSecondProgression": [9, 19, 30, 43, 57]
+    }
+  },
+  {
+    "name": "Fairy",
+    "rarity": "3",
+    "affinity": "nature",
+    "origin": "Quakelands",
+    "description": "Summons healing spirits and protection",
+    "attributes": {
+      "supportLow": 368,
+      "supportHigh": 615,
+      "healthLow": 1575,
+      "healthHigh": 3150,
+      "speedLow": 25,
+      "speedHigh": 60,
+      "perSecond": 82,
+      "skills": {
+        "a": "Heals 368 points of damage",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3372, 4342, 5125, 5800],
+      "costTotal": 20500,
+      "support": 49.4,
+      "health": 315,
+      "speed": 7,
+      "perSecond": 22,
+      "perSecondProgression": [22, 47, 75, 105, 138]
+    }
+  },
+  {
+    "name": "Pandamancer",
+    "rarity": "2",
+    "affinity": "metal",
+    "origin": "Riverland",
+    "description": "Commands the threeStar seen metal magic",
+    "attributes": {
+      "strengthLow": 640,
+      "strengthHigh": 1120,
+      "healthLow": 975,
+      "healthHigh": 2195,
+      "speedLow": 105,
+      "speedHigh": 220,
+      "perSecond": 340,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1810, 2330, 2750, 3113],
+      "costTotal": 11000,
+      "strength": 96,
+      "health": 244,
+      "speed": 23,
+      "perSecond": 117,
+      "perSecondProgression": [117, 250, 401, 569, 754]
+    }
+  },
+  {
+    "name": "Rogue",
+    "rarity": "3",
+    "affinity": "none",
+    "origin": "Qin Kingdom",
+    "description": "Can learn to strike with all damage types",
+    "attributes": {
+      "strengthLow": 1053,
+      "strengthHigh": 1755,
+      "healthLow": 1740,
+      "healthHigh": 3480,
+      "speedLow": 105,
+      "speedHigh": 215,
+      "perSecond": 560,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3372, 4342, 5125, 5800],
+      "costTotal": 20500,
+      "strength": 140.4,
+      "health": 348,
+      "speed": 22,
+      "perSecond": 176,
+      "perSecondProgression": [176, 377, 601, 849, 1121]
+    }
+  },
+  {
+    "name": "Musketeer",
+    "rarity": "3",
+    "affinity": "metal",
+    "origin": "Quakelands",
+    "description": "Armed with a lethal musket",
+    "attributes": {
+      "strengthLow": 1053,
+      "strengthHigh": 1755,
+      "healthLow": 870,
+      "healthHigh": 1740,
+      "speedLow": 35,
+      "speedHigh": 70,
+      "perSecond": 274,
+      "range": 300,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3372, 4342, 5125, 5800],
+      "costTotal": 20500,
+      "strength": 140.4,
+      "health": 174,
+      "speed": 7,
+      "perSecond": 69,
+      "perSecondProgression": [69, 146, 230, 322, 421]
+    }
+  },
+  {
+    "name": "Sherekhan The Tigerlord",
+    "rarity": "4",
+    "affinity": "metal",
+    "origin": "Riverland",
+    "description": "Seeks revenge on the Imperials that enslaved him",
+    "attributes": {
+      "strengthLow": 1200,
+      "strengthHigh": 1800,
+      "healthLow": 1685,
+      "healthHigh": 3375,
+      "speedLow": 325,
+      "speedHigh": 550,
+      "perSecond": 1661,
+      "range": 185,
+      "skills": {
+        "a": "Deals 110 extra Metal damage and to Imperials",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 3452,
+      "costProgression": [3452, 6248, 8049, 9500, 10751],
+      "costTotal": 38000,
+      "strength": 120,
+      "health": 338,
+      "speed": 45,
+      "perSecond": 396,
+      "perSecondProgression": [396, 834, 1314, 1836, 2400]
     }
   }
 ]
