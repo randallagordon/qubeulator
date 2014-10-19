@@ -5,7 +5,7 @@
     "affinity": "nature",
     "origin": "Mystery",
     "description": "Warrior of Quetzalcoatl",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1125,
       "strengthHigh": 1875,
       "healthLow": 1500,
@@ -32,7 +32,7 @@
     "affinity": "fire",
     "origin": "Volqano",
     "description": "Blazing servant to the dark arts",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 750,
       "strengthHigh": 1313,
       "healthLow": 1000,
@@ -59,7 +59,7 @@
     "affinity": "metal",
     "origin": "Qin Kingdom",
     "description": "Fierce and mighty warrior",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1260,
       "strengthHigh": 2100,
       "healthLow": 2100,
@@ -86,7 +86,7 @@
     "affinity": "fire",
     "origin": "Volqano",
     "description": "Arges' attacks deal extra damage to Undead with righteous fire",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 2250,
       "strengthHigh": 3375,
       "healthLow": 3375,
@@ -113,7 +113,7 @@
     "affinity": "spirit",
     "origin": "Mystery",
     "description": "Mystic energy guides this questor's blade",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1125,
       "strengthHigh": 1875,
       "healthLow": 1500,
@@ -140,7 +140,7 @@
     "affinity": "fire",
     "origin": "Qold Qountry",
     "description": "Inspires your Questors to shoot further",
-    "attributes": {
+    "baseAttributes": {
       "supportLow": 5,
       "supportHigh": 10,
       "healthLow": 1160,
@@ -165,7 +165,7 @@
     "affinity": "fire",
     "origin": "Qold Qountry",
     "description": "This firey battle maiden fights for justice",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1920,
       "strengthHigh": 2880,
       "healthLow": 2360,
@@ -192,7 +192,7 @@
     "affinity": "spirit",
     "origin": "Qolosseum",
     "description": "This famed hero deals extra damage to Skeletons",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 2250,
       "strengthHigh": 3375,
       "healthLow": 3375,
@@ -222,7 +222,7 @@
     "affinity": "none",
     "origin": "Qapellium",
     "description": "Strong melee warrior",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 375,
       "strengthHigh": 750,
       "healthLow": 650,
@@ -252,7 +252,7 @@
     "affinity": "nature",
     "origin": "Quakelands",
     "description": "Berserks with Qodin's force",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 750,
       "strengthHigh": 1313,
       "healthLow": 1000,
@@ -282,7 +282,7 @@
     "affinity": "metal",
     "origin": "The Quagmire",
     "description": "Battle-hardened in the arena",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1053,
       "strengthHigh": 1755,
       "healthLow": 1740,
@@ -312,7 +312,7 @@
     "affinity": "spirit",
     "origin": "Qold Qountry",
     "description": "Hunts monsters with zeal",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1260,
       "strengthHigh": 2100,
       "healthLow": 1050,
@@ -343,7 +343,7 @@
     "affinity": "nature",
     "origin": "Qin Kingdom",
     "description": "Casts magic with nature's might",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1344,
       "strengthHigh": 2240,
       "healthLow": 1575,
@@ -374,7 +374,7 @@
     "affinity": "nature",
     "origin": "The Quagmire",
     "description": "Tough ranged attacker",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 600,
       "strengthHigh": 1050,
       "healthLow": 650,
@@ -405,7 +405,7 @@
     "affinity": "nature",
     "origin": "Mystery",
     "description": "Toxins take her foes to the grave",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1123,
       "strengthHigh": 1872,
       "healthLow": 1305,
@@ -436,7 +436,7 @@
     "affinity": "metal",
     "origin": "The Quagmire",
     "description": "Launches spear with precision",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 275,
       "strengthHigh": 550,
       "healthLow": 325,
@@ -467,7 +467,7 @@
     "affinity": "spirit",
     "origin": "Qin Kingdom",
     "description": "Strikes with righteous fury",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 900,
       "strengthHigh": 1500,
       "healthLow": 1950,
@@ -495,7 +495,7 @@
     "affinity": "nature",
     "origin": "Qapellium",
     "description": "Swings axe with Nature's strength",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 468,
       "strengthHigh": 938,
       "healthLow": 500,
@@ -525,7 +525,7 @@
     "affinity": "none",
     "origin": "Qapellium",
     "description": "Fires deadly arrows",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 234,
       "strengthHigh": 468,
       "healthLow": 290,
@@ -556,7 +556,7 @@
     "affinity": "spirit",
     "origin": "Qapellium",
     "description": "Shoots fireballs",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 500,
       "strengthHigh": 1000,
       "healthLow": 375,
@@ -587,7 +587,7 @@
     "affinity": "spirit",
     "origin": "Qapellium",
     "description": "Heals Questors",
-    "attributes": {
+    "baseAttributes": {
       "supportLow": 140,
       "supportHigh": 281,
       "healthLow": 580,
@@ -617,7 +617,7 @@
     "affinity": "spirit",
     "origin": "Quakelands",
     "description": "Strikes with the mystery's might",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1200,
       "strengthHigh": 2000,
       "healthLow": 1125,
@@ -648,7 +648,7 @@
     "affinity": "spirit",
     "origin": "Mystery",
     "description": "Uses ancientjung fu",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1260,
       "strengthHigh": 2100,
       "healthLow": 2100,
@@ -678,7 +678,7 @@
     "affinity": "spirit",
     "origin": "Quakelands",
     "description": "Deadly spirit magics rain from his staff",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1228,
       "strengthHigh": 2048,
       "healthLow": 1180,
@@ -709,7 +709,7 @@
     "affinity": "nature",
     "origin": "Mystery",
     "description": "Unleashes devious hexes",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1228,
       "strengthHigh": 2048,
       "healthLow": 1180,
@@ -740,7 +740,7 @@
     "affinity": "metal",
     "origin": "The Quagmire",
     "description": "Attacks with a vicious",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 702,
       "strengthHigh": 1229,
       "healthLow": 1160,
@@ -770,7 +770,7 @@
     "affinity": "spirit",
     "origin": "Qin Kingdom",
     "description": "Shoots arrows laden with slowing magics",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1024,
       "strengthHigh": 1536,
       "healthLow": 1180,
@@ -801,7 +801,7 @@
     "affinity": "metal",
     "origin": "Qin Kingdom",
     "description": "Shoots his rifle with wicked aim",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 900,
       "strengthHigh": 1500,
       "healthLow": 975,
@@ -832,7 +832,7 @@
     "affinity": "spirit",
     "origin": "Mystery",
     "description": "Heals and negates enemy magics",
-    "attributes": {
+    "baseAttributes": {
       "supportLow": 360,
       "supportHigh": 600,
       "healthLow": 1500,
@@ -862,7 +862,7 @@
     "affinity": "metal",
     "origin": "The Quagmire",
     "description": "Forges weapons for heroes",
-    "attributes": {
+    "baseAttributes": {
       "supportLow": 0.4,
       "supportHigh": 0.9,
       "healthLow": 1300,
@@ -889,7 +889,7 @@
     "affinity": "spirit",
     "origin": "Quakelands",
     "description": "Curses and hexes her foes",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 819,
       "strengthHigh": 1434,
       "healthLow": 785,
@@ -920,7 +920,7 @@
     "affinity": "spirit",
     "origin": "The Quagmire",
     "description": "Targets victims with dark magics",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 896,
       "strengthHigh": 1568,
       "healthLow": 1050,
@@ -951,7 +951,7 @@
     "affinity": "nature",
     "origin": "The Quagmire",
     "description": "Heals with Nature's might",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 120,
       "strengthHigh": 240,
       "healthLow": 650,
@@ -981,7 +981,7 @@
     "affinity": "nature",
     "origin": "Quakelands",
     "description": "Summons healing spirits and protection",
-    "attributes": {
+    "baseAttributes": {
       "supportLow": 368,
       "supportHigh": 615,
       "healthLow": 1575,
@@ -1011,7 +1011,7 @@
     "affinity": "metal",
     "origin": "Riverland",
     "description": "Commands the threeStar seen metal magic",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 640,
       "strengthHigh": 1120,
       "healthLow": 975,
@@ -1042,7 +1042,7 @@
     "affinity": "none",
     "origin": "Qin Kingdom",
     "description": "Can learn to strike with all damage types",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1053,
       "strengthHigh": 1755,
       "healthLow": 1740,
@@ -1072,7 +1072,7 @@
     "affinity": "metal",
     "origin": "Quakelands",
     "description": "Armed with a lethal musket",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1053,
       "strengthHigh": 1755,
       "healthLow": 870,
@@ -1103,7 +1103,7 @@
     "affinity": "metal",
     "origin": "Riverland",
     "description": "Seeks revenge on the Imperials that enslaved him",
-    "attributes": {
+    "baseAttributes": {
       "strengthLow": 1200,
       "strengthHigh": 1800,
       "healthLow": 1685,

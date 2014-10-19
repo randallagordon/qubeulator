@@ -1,0 +1,27 @@
+{
+  "name": "Musketeer",
+  "rarity": "3",
+  "affinity": "metal",
+  "origin": "Quakelands",
+  "description": "Armed with a lethal musket",
+  "baseAttributes": {
+    "strengthLow": 1053,
+    "strengthHigh": 1755,
+    "healthLow": 870,
+    "healthHigh": 1740,
+    "speedLow": 35,
+    "speedHigh": 70,
+    "perSecond": 274,
+    "range": 300
+  },
+  "upgrade": {
+    "cost": 1861,
+    "costProgression": [1861, 3372, 4342, 5125, 5800],
+    "costTotal": 20500,
+    "strength": 140.4,
+    "health": 174,
+    "speed": 7,
+    "perSecond": 69,
+    "perSecondProgression": [69, 146, 230, 322, 421]
+  }
+}
