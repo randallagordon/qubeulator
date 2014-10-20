@@ -15,6 +15,6 @@ deploy:
 notifications:
   slack:
     secure: xZIFg2PcwmndzsmXAf0r7ACE88sQ3/F1/kyX7f56SKGBgX51TLe6pv+btDSHz++PJJdoWX5wY9TWgdYSjbLVSFvfGkUuKKz0AM/X41hpS50JSWfY9cbwSjC4omtOq4N6FGRO2Qxgw+o9Bo+55+JHLdS+UMlVoaXaff0lTsDx7s0=
-  webhook:
+  webhooks:
     urls:
-      secure: "fQHbZhEFz2HOJDtT71yIIMl/1hGcSy/zqwwoCMQNeEoEdscy0OObtsdVWKSczwjd0aYSfKhwHHr6UVbBqsuWIV5nbd1RM20KI/D2bBznbKesqlFZQdWeFLL8tESNsbyUnf1AiiXy4uGloLjaMMR4EOHTY1wZPOA0Bdi39EQ2Sb4="
+      secure: "PsHBm4LvecWEQmE0o3oVfwpoh8FNgJESZLik7xg+jTpupsLh9J+LG/oXsgfuwAmTRL3tDVxafZsfpB19iHFiYWcamW3b87nqH3t//Wm8lTSJc0UJurmIYYIwvsXPzT4GRcZl4fTOmp1O20LAajbkIO22UfwmfHdvPJ4ZRbgT2V0="
