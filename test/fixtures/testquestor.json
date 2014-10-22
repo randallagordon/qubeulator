@@ -5,14 +5,15 @@
   "origin": "Quakelands",
   "description": "Armed with a lethal musket",
   "baseAttributes": {
-    "strengthLow": 1053,
-    "strengthHigh": 1755,
-    "healthLow": 870,
-    "healthHigh": 1740,
-    "speedLow": 35,
-    "speedHigh": 70,
+    "strength": 1053,
+    "health": 870,
+    "speed": 35,
     "perSecond": 274,
-    "range": 300
+    "range": 300,
+    "skills": {
+      "a": "none",
+      "b": "none"
+    }
   },
   "upgrade": {
     "cost": 1861,
