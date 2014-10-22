@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Enchantress",
+    "rarity": "3",
+    "affinity": "spirit",
+    "origin": "Mystery",
+    "description": "Heals and negates enemy magics",
+    "baseAttributes": {
+      "support": 360,
+      "health": 1500,
+      "speed": 30,
+      "perSecond": 87,
+      "skills": {
+        "a": "Heals 360 points of damage",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3371, 4344, 5124, 5800],
+      "costTotal": 20500,
+      "support": 48,
+      "health": 300,
+      "speed": 6,
+      "perSecond": 21,
+      "perSecondProgression": [21, 44, 70, 98, 128]
+    },
+    "evo": {
+      "1": {
+        "strength": 360,
+        "health": 1500,
+        "speed": 30
+      },
+      "2-L0s-5%": {
+        "strength": 486,
+        "health": 2025,
+        "speed": 38
+      },
+      "2-L1s-5%": {
+        "strength": 490,
+        "health": 2054,
+        "speed": 38
+      },
+      "2-L2s-5%": {
+        "strength": 495,
+        "health": 2084,
+        "speed": 39
+      },
+      "2-L3s-5%": {
+        "strength": 500,
+        "health": 2114,
+        "speed": 39
+      },
+      "2-L4s-5%": {
+        "strength": 505,
+        "health": 2144,
+        "speed": 40
+      },
+      "2-L5s-10%": {
+        "strength": 570,
+        "health": 2475,
+        "speed": 47
+      }
+    }
+  },
+  {
+    "name": "Spirit Nymph",
+    "rarity": "3",
+    "affinity": "spirit",
+    "origin": "Quakelands",
+    "description": "Strikes with the mystery's might",
+    "baseAttributes": {
+      "strength": 1200,
+      "health": 1125,
+      "speed": 125,
+      "perSecond": 731,
+      "range": 150,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 1861,
+      "costProgression": [1861, 3371, 4344, 5124, 5800],
+      "costTotal": 20500,
+      "strength": 160,
+      "health": 225,
+      "speed": 23,
+      "perSecond": 219,
+      "perSecondProgression": [219, 466, 742, 1046, 1379]
+    },
+    "evo": {
+      "1": {
+        "strength": 750,
+        "health": 1000,
+        "speed": 100
+      },
+      "2-L0s": {
+        "strength": 1012,
+        "health": 1350,
+        "speed": 130
+      }
+    }
+  },
+  {
+    "name": "Viking",
+    "rarity": "2",
+    "affinity": "nature",
+    "origin": "Quakelands",
+    "description": "Berserks with Qodin's force",
+    "baseAttributes": {
+      "strength": 750,
+      "health": 1000,
+      "speed": 100,
+      "perSecond": 384,
+      "skills": {
+        "a": "none",
+        "b": "none"
+      }
+    },
+    "upgrade": {
+      "cost": 997,
+      "costProgression": [997, 1811, 2329, 2751, 3112],
+      "costTotal": 11000,
+      "strength": 112.6,
+      "health": 250,
+      "speed": 23,
+      "perSecond": 135,
+      "perSecondProgression": [135, 289, 464, 659, 874]
+    },
+    "evo": {
+      "1": {
+        "strength": 750,
+        "health": 1000,
+        "speed": 100
+      },
+      "2-L0s": {
+        "strength": 1012,
+        "health": 1350,
+        "speed": 130
+      }
+    }
+  }
+]

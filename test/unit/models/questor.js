@@ -14,10 +14,10 @@ lab.experiment("Model Questor", function() {
     Lab.expect(questor.name).to.equal("Musketeer");
     done();
   });
-  lab.test("defaults evolution and level to 0", function (done) {
+  lab.test("defaults evolution to 1 and level to 0", function (done) {
     var questor = new Questor(testQuestor);
 
-    Lab.expect(questor.evolution).to.equal(0);
+    Lab.expect(questor.evolution).to.equal(1);
     Lab.expect(questor.level).to.equal(0);
     done();
   });
@@ -27,24 +27,44 @@ lab.experiment("Model Questor", function() {
     Lab.expect(questor.currentAttributes)
       .to.exist;
     Lab.expect(questor.currentAttributes.strength)
-      .to.equal(testQuestor.baseAttributes.strengthLow);
+      .to.equal(testQuestor.baseAttributes.strength);
     done();
   });
   lab.test("updates its current attributes throughout level progression", function (done) {
     var questor = new Questor(testQuestor);
 
     Lab.expect(questor.currentAttributes.strength)
-      .to.equal(testQuestor.baseAttributes.strengthLow);
+      .to.equal(testQuestor.baseAttributes.strength);
+    Lab.expect(questor.currentAttributes.health)
+      .to.equal(testQuestor.baseAttributes.health);
+    Lab.expect(questor.currentAttributes.speed)
+      .to.equal(testQuestor.baseAttributes.speed);
+    Lab.expect(questor.currentAttributes.perSecond)
+      .to.equal(testQuestor.baseAttributes.perSecond);
 
-    questor.level = 1;
+    questor.set({ level: 1 });
 
     Lab.expect(questor.currentAttributes.strength)
-      .to.equal(testQuestor.baseAttributes.strengthLow + testQuestor.upgrade.strength * 1);
+      .to.equal(testQuestor.baseAttributes.strength + testQuestor.upgrade.strength * 1);
+    Lab.expect(questor.currentAttributes.health)
+      .to.equal(testQuestor.baseAttributes.health + testQuestor.upgrade.health * 1);
+    Lab.expect(questor.currentAttributes.speed)
+      .to.equal(testQuestor.baseAttributes.speed + testQuestor.upgrade.speed * 1);
+    Lab.expect(questor.currentAttributes.perSecond)
+      .to.equal(testQuestor.baseAttributes.perSecond + testQuestor.upgrade.perSecondProgression[0]);
 
-    questor.level = 5;
+    questor.set({ level: 5 });
 
     Lab.expect(questor.currentAttributes.strength)
-      .to.equal(testQuestor.baseAttributes.strengthLow + testQuestor.upgrade.strength * 5);
+      .to.equal(testQuestor.baseAttributes.strength + testQuestor.upgrade.strength * 5);
+    Lab.expect(questor.currentAttributes.health)
+      .to.equal(testQuestor.baseAttributes.health + testQuestor.upgrade.health * 5);
+    Lab.expect(questor.currentAttributes.speed)
+      .to.equal(testQuestor.baseAttributes.speed + testQuestor.upgrade.speed * 5);
+    Lab.expect(questor.currentAttributes.perSecond)
+      .to.equal(testQuestor.baseAttributes.perSecond + testQuestor.upgrade.perSecondProgression[4]);
+
+    questor.set({ level: 0, evolution: 2 });
 
     done();
   });
