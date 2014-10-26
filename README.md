@@ -1,4 +1,4 @@
-qubeulator &nbsp; [![Build Status][travis-image]][travis-url] [![Stories in Ready][waffle-image]][waffle-url]
+qubeulator &nbsp; [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Stories in Ready][waffle-image]][waffle-url]
 =============
 A set of useful tools for Qube Kingdom
 
@@ -21,5 +21,7 @@ gulp tasks
 
 [travis-image]: https://travis-ci.org/randallagordon/qubeulator.svg?branch=master
 [travis-url]: https://travis-ci.org/randallagordon/qubeulator
+[coveralls-image]: https://img.shields.io/coveralls/randallagordon/qubeulator.svg
+[coveralls-url]: https://coveralls.io/r/randallagordon/qubeulator
 [waffle-image]: https://badge.waffle.io/randallagordon/qubeulator.png?label=ready&title=Ready
 [waffle-url]: https://waffle.io/randallagordon/qubeulator

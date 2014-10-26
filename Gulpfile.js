@@ -16,6 +16,7 @@ var react = require("gulp-react");
 var jshint = require("gulp-jshint");
 var jsxcs = require("gulp-jsxcs");
 var lab = require("gulp-lab");
+var coveralls = require("gulp-coveralls");
 var plumber = require("gulp-plumber");
 var notify = require("gulp-notify");
 var browserSync = require("browser-sync");
@@ -64,6 +65,14 @@ gulp.task("serve", ["watch", "css", "js-debug", "copy"], function() {
 gulp.task("test", function() {
   gulp.src("test")
     .pipe(lab());
+});
+
+gulp.task("test-coveralls", function() {
+  gulp.src("test")
+    .pipe(lab("-r lcov > lcov.info"));
+
+  gulp.src("lcov.info")
+    .pipe(coveralls());
 });
 
 gulp.task("jscs", function() {
@@ -152,3 +161,4 @@ gulp.task("watch-test", ["test"], function() {
 gulp.task("build", ["jscs", "lint", "test", "css", "js-build", "copy"]);
 gulp.task("ci", ["jscs", "lint", "test"]);
 gulp.task("default", ["watch", "css", "js-debug", "copy"]);
+

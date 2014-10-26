@@ -5,6 +5,8 @@ before_script:
 - npm install -g bower
 - bower install
 script: gulp build
+after_success:
+- gulp test-coveralls
 deploy:
   provider: divshot
   api_key:
